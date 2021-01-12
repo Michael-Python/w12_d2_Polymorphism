@@ -18,7 +18,7 @@ public class Network {
     public int deviceCount(){
         return devicesDesktop.size() + devicesPrinter.size();
     }
-
+//this is overloading
     public void connect(Desktop desktop){
         devicesDesktop.add(desktop);
     }

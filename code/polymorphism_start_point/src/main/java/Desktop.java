@@ -1,4 +1,5 @@
-public class Desktop {
+//when first written 'implements...' choose to implement method in this file.
+public class Desktop implements IConnect{
     private String name;
     private String make;
     private String model;
@@ -20,4 +21,10 @@ public class Desktop {
     public String getModel() {
         return model;
     }
+
+    public String connect(String networkName){
+        return "Connecting to "+networkName+" network";
+
+    }
+
 }

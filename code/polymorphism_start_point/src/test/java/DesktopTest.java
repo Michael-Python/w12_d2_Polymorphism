@@ -26,4 +26,9 @@ public class DesktopTest {
         assertEquals("Macbook Pro", desktop.getModel());
     }
 
+    @Test
+    public void canConnect(){
+        assertEquals("Connecting to CodeClan network", desktop.connect("CodeClan"));
+    }
+
 }

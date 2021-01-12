@@ -15,4 +15,10 @@ public class PrinterTest {
     public void canPrint(){
         assertEquals("printing: Hello World", printer.print("Hello World"));
     }
+
+    @Test
+    public void canConnect(){
+        assertEquals("Printer standing by on CodeClan", printer.connect("CodeClan"));
+    }
+
 }
